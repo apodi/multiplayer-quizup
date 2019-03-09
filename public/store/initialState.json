@@ -1,0 +1,14 @@
+{
+	"allGames": [],
+	"quesList":[],
+	"action": "",
+	"activeUser":[],
+	"answersList":[],
+	"score":0,
+	"players": [],
+	"playerScore": [],
+	"gameId":"123Id",
+	"socketCustom": {},
+	"gameType": "",
+	"userPhotoURL": ""
+}

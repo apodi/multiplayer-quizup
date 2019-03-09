@@ -1,0 +1,282 @@
+@import '_colors';
+@import "bootstrap/scss/bootstrap.scss";
+//@import "_superherotheme.scss";
+
+.btn-primary {
+    background-color: $btn-primary-color;
+}
+
+// @mixin marginBottom($bottom) {
+//     margin-bottom:$bottom;
+// }
+@mixin boxShadow($h-offset, $v-offset, $blur, $spread, $color) {
+    box-shadow: $h-offset $v-offset $blur $spread $color;
+}
+
+.footer {
+    background-color: $footer-bg;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .nav-item a {
+        color: white !important
+    }
+    .anscont button {
+        width: 200px !important;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #2B3E50;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 700px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.userimg {
+
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-dark {
+    background-color: #4E5D6C;
+}
+
+.progress-bar {
+    background-color: #DF691A;
+}
+
+#myProgress {
+    width: 100%;
+}
+
+#myBar {
+    width: 1%;
+    height: 20px;
+    background-color: #DF691A;
+}
+.container-game {
+    margin: 1rem auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.row {
+    padding-top: 20px
+}
+
+.rextent {
+    padding: 0 30px 20px 30px;
+}
+
+.quesSec {
+    //margin: auto !important;
+    padding-bottom: 20px;
+}
+
+.quesOptions {
+    margin: auto !important;
+}
+
+.header {
+    background: #18545f;
+    color: white;
+}
+
+.questab {
+    background-color: #8d9dad;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+.questab p {
+    position: relative;
+    top: 15px;
+
+}
+
+.anscont {
+    text-align: center;
+}
+
+.anscont button {
+
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 1px 1px 1px #d6d6d6;
+    border-radius: 7px;
+    border: 1px solid #bfb9b9;
+}
+
+.flex-item-center{
+    justify-content: center;
+}
+
+.scoreheader {
+    height: 40vh;
+    width: 100%;
+    background-color: #028090;
+    color: #fff;
+    font-family: 'Impact', cursive;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 66px;
+    margin: 1vh 0;
+}
+
+
+/***
+ **  Section
+ **/
+
+.leaderboard {}
+
+/***
+ **  Table
+ **/
+
+.table-fill {
+    max-width: 800px;
+    padding: 5px;
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+th {
+    color: #fff;
+    background: #DF691A;
+    /*border-bottom: 4px solid #9ea7af;*/
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    text-align: center;
+}
+
+tr {
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+td {
+    background: #4E5D6C;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+main {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    background-color: #028090;
+    -webkit-transition: transform .7s ease-in-out;
+    -moz-transition: transform .7s ease-in-out;
+    -ms-transition: transform .7s ease-in-out;
+    -o-transition: transform .7s ease-in-out;
+    transition: transform .7s ease-in-out;
+}
+
+
+.Highlightbtn {
+
+    opacity: 0.2;
+}
+
+.card{
+    background-color:transparent;
+    border: none;
+}
+
+.card-user-ques-page{
+    background-color: transparent !important;
+}
+
+.card-img-top-question{
+    margin: auto;
+    width: 100px !important;
+}
+
+.card-img-scoreboard{
+    margin: auto;
+    width: 70px !important;
+}
+#backToSocial{
+    background-color: #DF691A;
+    color: white;
+}
+
+a {
+    color: white !important;
+}
+
+/*.footer{
+    position: absolute;
+    width: 100%;
+    padding: 0.3rem;
+    right: 0;
+    left: 0;
+    background-color: #4E5D6C;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.3rem;
+    background-color: #4E5D6C;
+    text-align: center;
+}*/
+
+.copyright{
+    font-size: 0.9rem;
+}

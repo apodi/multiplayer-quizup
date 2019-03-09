@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Play Game</title>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
+  <meta name="google-signin-client_id" content="1028253181186-h18etbfdb9gkkupfgi2riphjnti8ehc7.apps.googleusercontent.com">
+  <meta name="google-signin-cookiepolicy" content="single_host_origin">
+  <meta name="google-signin-scope" content="profile email">
+</head>
+
+<body class="text-center">
+  <!--<img class="mb-4" src="./public/assets/media/imgs/logo.png" alt="" width="72" height="72">-->
+  <nav class="navbar sticky-top navbar-dark">
+      <span class="navbar-brand mb-0 h1 pl-4" id="quizHeader">QuizRT</span>
+  </nav>
+  <div id="waitingPage" class="d-none">
+    <div class="row" id="waitingText">
+      <div class="col text-center"><b>Waiting for other players to join...</b></div>
+    </div>
+    <div class="progress my-5">
+      <div id="dynamicProgressBar" class="progress-bar progress-bar-success progress-bar-striped active" style="width:0%" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+      </div>
+    </div>
+    <section>
+      <div class="section-content">
+        <div class="container">
+          <div class="row flex-item-center" id="waitingPageRow">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="gamePage"></div>
+ <!-- <footer class="footer">
+    <div class="container">
+      <div class="text-muted">Copyright © www.quizon.com
+        <br>Designed and Maintained by the core team with the help of our contributors. Currently v1.0.1.</div>
+    </div>
+  </footer> -->
+</body>
+
+</html>
